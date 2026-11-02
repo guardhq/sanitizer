@@ -1,16 +1,22 @@
-# @guardbot/sanitizer
-> **Tiny text sanitizer that's really just a bunch of libraries in a trenchcoat.**
+# @guardhq/sanitizer
+**Tiny text sanitizer that's really just a bunch of libraries in a trenchcoat.**
 
-## **📦 Installation**
-```sh
-$ npm install @guardbot/sanitizer # via npm
-$ yarn add @guardbot/sanitizer # yarn
-$ pnpm add @guardbot/sanitizer # pnpm
+<div>
+  <img src="https://readmebadges.netlify.app/badges/made-with-ts.svg" alt="Made with TypeScript" />
+  <img src="https://readmebadges.netlify.app/badges/made-with-love.svg" alt="Made with love" />
+</div>
+
+
+## 📦 Installation
+```bash
+$ npm install @guardhq/sanitizer # via npm
+$ yarn add @guardhq/sanitizer    # via yarn
+$ pnpm add @guardhq/sanitizer    # via pnpm
 ```
 
-## **🪴 Usage**
-```typescript
-import sanitizer from '@guardbot/sanitizer';
+## 🪴 Usage
+```ts
+import sanitizer from '@guardhq/sanitizer';
 
 sanitizer('aéà)àçé');
 // 'aea)ace'
@@ -18,3 +24,7 @@ sanitizer('aéà)àçé');
 sanitizer(someCompletelyUnusableString, 'fallback');
 // 'fallback'
 ```
+
+
+## 🪴 Support
+[![Discord](https://discordwidgets.vercel.app/widgets/invite/vamQMmYBNN?theme=dark)](https://discord.gg/invite/vamQMmYBNN)

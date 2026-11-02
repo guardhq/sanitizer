@@ -1,11 +1,22 @@
-## Description
-describe what changes this PR includes and explain why are they needed.
+## Summary
+<!-- What does this change and why? For bugs, how do you reproduce it? -->
 
-Fixes # (issue)
+## Related Issue
+<!-- For example: Fixes #123 or Closes #456 -->
+Closes #<!-- issue number, if applicable -->
 
-## Screenshots
-If applicable, add screenshots to explain the change.
+## Type of Change
+- [ ] Bug fix
+- [ ] New feature
+- [ ] Performance
+- [ ] Refactor (no behavior change)
+- [ ] Documentation
+- [ ] Breaking change
 
-## Status
-- [ ] These changes have been tested and formatted properly.
-- [ ] This PR introduces some Breaking changes
+## Checklist
+- [ ] `yarn typecheck` and `yarn build` pass.
+- [ ] Verified the output of the changed inputs.
+- [ ] Updated `README.md` where applicable.
+
+## Notes for Reviewers
+<!-- Optional: trade-offs, follow-ups, or areas needing extra attention. -->
